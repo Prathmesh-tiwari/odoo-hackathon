@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-// import { FaUserCircle, FaSearch, FaPlane, FaSuitcase } from "react-icons/fa";
-// import { FiFilter, FiGrid, FiSortAscending } from "react-icons/fi";
+import { FaUserCircle, FaSearch, FaPlane, FaSuitcase } from "react-icons/fa";
+import { FiFilter, FiGrid, FiArrowUp } from "react-icons/fi";
 
 const MainLanding = () => {
   
@@ -84,7 +84,7 @@ const MainLanding = () => {
             <FiFilter /> Filter
           </button>
           <button className="flex items-center gap-1 bg-blue-100 text-blue-700 px-3 py-1.5 rounded-lg text-sm hover:bg-blue-200">
-            <FiSortAscending /> Sort by
+            <FiArrowUp /> Sort by
           </button>
         </div>
       </div>
